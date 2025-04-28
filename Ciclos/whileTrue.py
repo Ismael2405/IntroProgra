@@ -3,4 +3,4 @@ while True:
     a=int(input(("Introduzca un número positivo: ")))
     if a>0:
         break
-print(f"el número positivo es: {a}")
+print(f"el número es: {a}")
