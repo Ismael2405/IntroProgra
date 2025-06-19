@@ -28,4 +28,4 @@ Muestra su número de orden (i+1) y su posición real en la lista (vector[i]).
 """
 print("Los valores almacenados son: ")
 for i in range (tamaño):
-    print(f"{i + 1}. Valor[{i}] = {vector[i]}") 
+    print(f"{i + 1}. Valor[{i}] = {vector[i]}")
