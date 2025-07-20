@@ -11,7 +11,7 @@ como dijo el usuario (tamaño), todos inicialmente son 0.
 Ejemplo: si tamaño = 3, entonces vector empieza como [0, 0, 0]"""
 vector=[0]*tamaño
 """
-for i in range(tamaño): → Un ciclo que se repite tamaño veces.
+for i in range(tamaño): → Un ciclo que se repite "tamaño" veces.
 i toma los valores 0, 1, 2, ..., hasta tamaño-1.
 Dentro del ciclo:
 Pide al usuario un número.
