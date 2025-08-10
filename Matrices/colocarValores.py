@@ -13,17 +13,17 @@ while True:
 """
 Ahora vamos a agregar los valores en la matriz, mostrando las posiciones
 en donde las vamos a colocar. Usamos 2 ciclos For para que vaya por filas primero
-y luego por columnas.
+y después por columnas.
 Pero antes, en cada posicion vamos a poner un 0, para que asi haya un espacio
 ´esperando´ por ser llenado.
 """
-matriz=[([0]*columnas) for i in range(filas)]
-for fila in range(filas):
-    for columna in range(columnas):
-        matriz[fila][columna]=int(input(f"Proporciona el valor de la posicion {fila}, {columna}: "))
+matriz=[([0]*columnas) for _ in range(filas)]
+for i in range(filas):
+    for j in range(columnas):
+        matriz[i][j]=int(input(f"Proporciona el valor de la posicion {i}, {j}: "))
 """
 Una vez completada la matriz, tanto en filas como en columnas, se muestra la misma
 nuevamente usando 2 ciclos for, uno para filas y otro para columnas
 """
-for fila in matriz:
-    print("  ".join(f"{valor:2}" for valor in fila))
+for i in matriz:
+    print("  ".join(f"{valor:2}" for valor in i))
